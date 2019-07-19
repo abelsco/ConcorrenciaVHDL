@@ -1,0 +1,11 @@
+|CONCORRENTE
+binario[0] => ~NO_FANOUT~
+binario[1] => ~NO_FANOUT~
+binario[2] => ~NO_FANOUT~
+binario[3] => gray[3].DATAIN
+gray[0] <= <GND>
+gray[1] <= <GND>
+gray[2] <= <GND>
+gray[3] <= binario[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
